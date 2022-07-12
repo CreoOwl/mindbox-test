@@ -8,6 +8,9 @@
     /// </summary>
     public class Circle : IShape
     {
+        /// <summary>
+        /// Радиус.
+        /// </summary>
         public double Radius { get; }
 
         public Circle(double radius)

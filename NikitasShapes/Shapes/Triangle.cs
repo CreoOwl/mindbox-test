@@ -10,10 +10,19 @@
     /// </summary>
     public class Triangle : IShape
     {
+        /// <summary>
+        /// Сторона a.
+        /// </summary>
         public double EdgeA { get; }
 
+        /// <summary>
+        /// Сторона b.
+        /// </summary>
         public double EdgeB { get; }
 
+        /// <summary>
+        /// Сторона c.
+        /// </summary>
         public double EdgeC { get; }
 
 
